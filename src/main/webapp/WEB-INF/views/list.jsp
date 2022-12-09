@@ -36,6 +36,13 @@
 </head>
 <body>
 <h1>당신의 계획을 한 눈에</h1>
+
+<div>
+	<h3>담으로 또 만나여~~~</h3>
+	<form>
+		<button type='submit' onclick="javascript:form.action='/Spring_war_exploded/login/logout'">logout</button>
+	</form>
+</div>
 <table id="list" width="90%">
 	<tr>
 		<th>Id</th>
