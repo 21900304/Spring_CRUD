@@ -4,7 +4,7 @@
     <insert id="insertBoard">
         insert into BOARD (category,professor,grade,major,place,duedate,content)
         values
-        (#{category} , #{professor}, #{grade}, #{major}, #{place}, #{duedate} , #{writer} , #{content})
+        (#{category} , #{professor}, #{grade}, #{major}, #{place}, #{duedate} , #{content})
     </insert>
     <update id="updateBoard">
         update BOARD
